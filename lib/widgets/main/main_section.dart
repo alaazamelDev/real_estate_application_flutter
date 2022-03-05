@@ -17,7 +17,7 @@ class MainSection extends StatelessWidget {
             HomeBanner(),
             IconInfo(),
             Projects(),
-            Recommondations()
+            Recommendations()
           ],
         ),
       ),

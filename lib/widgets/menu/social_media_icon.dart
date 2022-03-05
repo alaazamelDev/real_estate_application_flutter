@@ -17,18 +17,22 @@ class SocialMediaIcon extends StatelessWidget {
           IconButton(
             icon: SvgPicture.asset('assets/icons/linkedin.svg'),
             onPressed: () {},
+            splashRadius: 20,
           ),
           IconButton(
             icon: SvgPicture.asset('assets/icons/github.svg'),
             onPressed: () {},
+            splashRadius: 20,
           ),
           IconButton(
             icon: SvgPicture.asset('assets/icons/twitter.svg'),
             onPressed: () {},
+            splashRadius: 20,
           ),
           IconButton(
             icon: SvgPicture.asset('assets/icons/dribble.svg'),
             onPressed: () {},
+            splashRadius: 20,
           ),
           Spacer(),
         ],

@@ -3,8 +3,8 @@ import 'package:real_estate/constants.dart';
 import 'package:real_estate/models/recommendation.dart';
 import 'package:real_estate/widgets/main/recommondation_card.dart';
 
-class Recommondations extends StatelessWidget {
-  const Recommondations({Key? key}) : super(key: key);
+class Recommendations extends StatelessWidget {
+  const Recommendations({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class Recommondations extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Client Recommondations:',
+            'Client Recommendations',
             style: Theme.of(context)
                 .textTheme
                 .headline6!

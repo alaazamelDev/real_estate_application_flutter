@@ -36,11 +36,11 @@ class ProjectCard extends StatelessWidget {
             child: Text(
               project.description!,
               style: TextStyle(height: 1.7),
-              maxLines: 5,
+              maxLines: 4,
               overflow: TextOverflow.ellipsis,
             ),
           ),
-          SizedBox(height: kDefaultPadding),
+          SizedBox(height: kDefaultPadding/2),
           TextButton(
             onPressed: () {},
             child: Text(
